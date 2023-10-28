@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import SQLAlchemyError
 
-from models.tenan_info import TenantInfo, Base
+from src.models.tenant_info import TenantInfo, Base
 from utilities.logging_util import get_logger
 
 logger = get_logger(__name__)
